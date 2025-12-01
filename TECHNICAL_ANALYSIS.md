@@ -47,8 +47,8 @@ $$
 
 Похідні беруться через `tf.GradientTape`:
 
-- $$u_t = \partial u / \partial t;
-- $$u_xx = \partial^2 u / \partial x^2.
+- $u_t = \partial u / \partial t$;
+- $u_{xx} = \partial^2 u / \partial x^2$.
 
 Фізичний лосс:
 
