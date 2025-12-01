@@ -47,8 +47,8 @@ $$
 
 Похідні беруться через `tf.GradientTape`:
 
-- `u_t = \partial u / \partial t`;
-- `u_xx = \partial^2 u / \partial x^2`.
+- $$u_t = \partial u / \partial t;
+- $$u_xx = \partial^2 u / \partial x^2.
 
 Фізичний лосс:
 
@@ -206,7 +206,7 @@ $$
    L_{\text{total}} = L_{\text{data}} + L_{\text{phys}}.
    $$
 
-   Можна ввести вагу \(\lambda\):
+   Можна ввести вагу $\lambda$:
 
    $$
    L_{\text{total}} = L_{\text{data}} + \lambda L_{\text{phys}}
