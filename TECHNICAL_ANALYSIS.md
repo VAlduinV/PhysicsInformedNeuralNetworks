@@ -202,15 +202,11 @@ $$
 1. **Баланс між data та physics loss**  
    Зараз:
 
-   $$
-   L_{\text{total}} = L_{\text{data}} + L_{\text{phys}}.
-   $$
+   $$L_{\text{total}} = L_{\text{data}} + L_{\text{phys}}.$$
 
    Можна ввести вагу $\lambda$:
 
-   $$
-   L_{\text{total}} = L_{\text{data}} + \lambda L_{\text{phys}}
-   $$
+   $$L_{\text{total}} = L_{\text{data}} + \lambda L_{\text{phys}}$$
 
    і дослідити, як змінюється якість та форма розв’язку.
 
